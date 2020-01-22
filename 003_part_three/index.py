@@ -41,7 +41,7 @@ print('API调用结果：')
 print(response.json())
 print('API调用结果的数据类型：')
 print(type(response.json()))
-print('API调用结果的 message 值：' + response.json()['message'])
+print('API调用结果的 message 值：' + str(response.json()['message']))
 
 
 #### 解析列表
