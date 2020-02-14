@@ -17,8 +17,8 @@ print(response.text)
 urlLogin = 'https://passport.mtime.com/member/signinLogin'
 ## 表单数据
 formdata = {
-    'loginEmailText': '18980679101',
-    'loginPasswordText': 'b4a9f03c6770c4414df8f660ff511dab',
+    'loginEmailText': '',
+    'loginPasswordText': '',
     'isvcode': 'true',
     'isAutoSign':'false'
 }
@@ -38,8 +38,8 @@ print(response.text)
 urlLogin = 'https://passport.mtime.com/member/signinLogin'
 ## 表单数据
 formdata = {
-    'loginEmailText': '18980679101',
-    'loginPasswordText': 'b4a9f03c6770c4414df8f660ff511dab',
+    'loginEmailText': '',
+    'loginPasswordText': '',
     'isvcode': 'true',
     'isAutoSign':'false'
 }

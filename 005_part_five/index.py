@@ -21,7 +21,7 @@ print('下载成功！')
 #### 下载图片
 #### 和上面调用二进制一样
 url = 'http://photo.yupoo.com/vibius/GkRSowXr/medish.jpg'
-headers = {'Referer': 'http://photo.yupoo.com/'}
+headers = {'Referer': 'http://photo.yupoo.com/' , 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/14.0.835.163 Safari/535.1'}
 response = requests.get(url,headers=headers)
 fo = open('xzq_201907.jpg','wb')
 fo.write(response.content)

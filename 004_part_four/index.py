@@ -1,5 +1,14 @@
 import requests
 
+####
+url = 'https://www.douban.com/'
+response = requests.get(url)
+print(response.json)
+
+
+
+
+
 #### 判断浏览器类型
 url = 'https://movie.douban.com/j/search_subjects?type=movie&tag=热门&page_limit=5&page_start=0'
 response = requests.get(url)
